@@ -44,7 +44,7 @@ np.savetxt("./output/heightmap_moon.txt", dz, fmt="%d")
 
 fig = go.Figure(data=[go.Surface(z=z, x=x, y=y, colorscale='gray')], layout=go.Layout(scene=dict(aspectmode='manual', aspectratio=dict(x=1, y=1, z=0.225))))
 fig.update_layout(title='Full Moon Height Map', autosize=False,
-                  margin=dict(l=65, r=50, b=65, t=90))
+                  margin=dict(l=0, r=0, b=0, t=0))
 fig.show()
 
 fig.write_html("./output/fullmoon_heightmap.html")
