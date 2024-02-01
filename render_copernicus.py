@@ -31,7 +31,7 @@ for i in range(w):
         z[i, j] = z[i, j - 1] + (np.linalg.norm(normals[i, j]) - np.linalg.norm(normals[i, j - 1]))
         # z[i, j] = z[i, j - 1].copy() + normals[i, j, 0].copy()
         # z[i, j] = z[i, j - 1] + math.sqrt(normals[i, j, 0] ** 2 + normals[i, j, 1] ** 2 + normals[i, j, 2] ** 2) - math.sqrt(normals[i, j - 1, 0] ** 2 + normals[i, j - 1, 1] ** 2 + normals[i, j - 1, 2] ** 2)
-        # z[i, j] = z[i, j - 1] + math.sqrt(normals[i, j, 0] ** 2 + normals[i, j, 2] ** 2) - math.sqrt(normals[i, j - 1, 0] ** 2 + normals[i, j - 1, 2] ** 2)
+        # z[i, j] = z[i, j - 1] + math.sqrt(normals[i, j, 0] ** 2 + normals[i, j, 1] ** 2) - math.sqrt(normals[i, j - 1, 0] ** 2 + normals[i, j - 1, 1] ** 2)
         # print(normals[i, j, 0])
 for i in range(w):
     for j in range(h):

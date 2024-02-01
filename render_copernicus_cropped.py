@@ -40,13 +40,13 @@ for i in range(w):
         # dz[i, j] = normals[i, j, 0]
 # print(dz)
         
-x = x[275:675]
-y = y[315:715]
-z = z[315:715, 275:675]
+x = x[315:630]
+y = y[350:665]
+z = z[350:665, 315:630]
 
 np.savetxt("./output/heightmap_copernicus.txt", dz, fmt="%d")
 
-fig = go.Figure(data=[go.Surface(z=z, x=x, y=y, colorscale='gray')], layout=go.Layout(scene=dict(aspectmode='manual', aspectratio=dict(x=1, y=1, z=0.225))))
+fig = go.Figure(data=[go.Surface(z=z/17, x=x, y=y, colorscale='gray')], layout=go.Layout(scene=dict(aspectmode='manual', aspectratio=dict(x=1, y=1, z=0.225))))
 fig.update_layout(title='Copernicus Crater Height Map', autosize=False,
                   margin=dict(l=65, r=50, b=65, t=90))
 fig.show()
