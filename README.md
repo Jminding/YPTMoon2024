@@ -36,6 +36,6 @@ In order to turn the surface normals into a 3D model, we decided to add up the c
 In particular, for the $x$-direction, the change in height is $h_x = \dfrac{n_x}{n_z}d$, where $d$ is the length of 1 pixel. The same can be applied to the $y$-direction.
 
 ## Rendered 3D models:
-1. Copernicus Crater (full): https://jminding.github.io/YPTMoon2023/output/copernicus_heightmap.html
-2. Copernicus Crater (cropped): https://jminding.github.io/YPTMoon2023/output/copernicus_heightmap_cropped.html
-3. Full Moon: https://jminding.github.io/YPTMoon2023/output/fullmoon_heightmap.html
+1. Copernicus Crater (full): [https://jminding.github.io/YPTMoon2023/output/copernicus_heightmap.html](https://jminding.github.io/YPTMoon2023/output/copernicus_heightmap.html)
+2. Copernicus Crater (cropped): [https://jminding.github.io/YPTMoon2023/output/copernicus_heightmap_cropped.html](https://jminding.github.io/YPTMoon2023/output/copernicus_heightmap_cropped.html)
+3. Full Moon: [https://jminding.github.io/YPTMoon2023/output/fullmoon_heightmap.html](https://jminding.github.io/YPTMoon2023/output/fullmoon_heightmap.html)
