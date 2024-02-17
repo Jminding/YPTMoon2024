@@ -43,6 +43,10 @@ for i in range(w):
 x = x[315:630]
 y = y[350:665]
 z = z[350:665, 315:630]
+print(np.where(z == np.max(z)))
+print(z[217, 256])
+
+# exit()
 
 np.savetxt("./output/heightmap_copernicus.txt", dz, fmt="%d")
 

@@ -15,6 +15,9 @@ X2, Y2 = np.meshgrid(x2, y2)
 # Convert the heightmap to a numpy array
 heightmap = np.array(heightmap_image)
 
+print(heightmap[225, 218])
+# exit()
+
 # heightmap = (heightmap * -1)
 
 # Display the heightmap

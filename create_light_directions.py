@@ -4,7 +4,6 @@ from angle import get_ra_dec
 from astropy.coordinates import SkyCoord
 import astropy.units as u
 
-
 start_date = datetime(2023, 10, 23)
 end_date = datetime(2023, 11, 6)
 
