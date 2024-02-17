@@ -1,4 +1,4 @@
-# 2024 Young Physicists Tournament Moon Project
+# 2024 Young Physicists Tournament: The Surface of the Moon Problem
 
 This was the project presented by Rye Country Day School for the 2024 US Invitational Young Physicists Tournament. Rye Country Day School is the 2024 USIYPT Champion.
 <hr>
