@@ -19,7 +19,7 @@ Since the files are super messy, here's a small breakdown of important files to 
 
 ### Directories
 - 📁 `test_data_libration/`: Contains images of the full moon that account for libration
-- 📁 `Copernicus Cropped/`: Contains images of the Copernicus Crater that account for libration
+- 📁 `Copernicus Cropped/`: Contains images of the Copernicus Crater that account for libration (not included in this repo)
 
 ## Explanation
 There's three parts to this project:
